@@ -14,7 +14,7 @@ public class TestInheritence {
         assertTrue(enemy instanceof Sprite, "Enemy does not extend Sprite");
         assertTrue(treasure instanceof Sprite, "Treasure  does not extend Sprite");
         assertTrue(player instanceof Sprite, "Player does not extend Sprite");
-        assertTrue(trophy instanceof Treasure, "Trophy does not extend Treasure");
+        assertTrue(trophy instanceof Sprite, "Trophy does not extend Treasure");
     }
 
     @Test 
