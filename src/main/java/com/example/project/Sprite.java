@@ -7,7 +7,7 @@ public class Sprite {
         this.x = x;
         this.y = y;
     }
-
+// Getters and setters for x and y
     public int getX(){
         return x;
     }
